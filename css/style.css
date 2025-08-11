@@ -54,3 +54,8 @@
     color: var(--dark);
     font-weight: 400;
 }
+
+.telephone:hover {
+    text-decoration: underline;
+    color: var(--main-color);
+}
