@@ -1,0 +1,56 @@
+:root {
+  --main-color: #1EAAD2;
+  --dark: #3a3a3a;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'TT Firs Neue', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.header-nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.teachers {
+    margin-right: 50px;
+    text-decoration: none; 
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.teachers:hover {
+   color: var(--main-color);
+   transition: 0.2s;
+}
+
+.socials {
+    margin-right: 50px;
+}
+
+.socials-list {
+    display: flex;
+}
+
+.social-list-item:not(:last-child) {
+ margin-right: 15px; 
+}
+
+.telephone {
+    font-size: 1.2rem;
+    color: var(--dark);
+    font-weight: 400;
+}

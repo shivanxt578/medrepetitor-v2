@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Light.ttf');
+    src: local('TT Firs Neue Light'), local('TTFirsNeue-Light'),
+        url('../fonts/TTFirsNeue-Light.ttf') format('embedded-opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Regular.ttf');
+    src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
+        url('..//fonts/TTFirsNeue-Regular.ttf') format('embedded-opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Medium.ttf');
+    src: local('TT Firs Neue Medium'), local('TTFirsNeue-Medium'),
+        url('..//fonts/TTFirsNeue-Medium.ttf') format('embedded-opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-DemiBold.ttf');
+    src: local('TT Firs Neue DemiBold'), local('TTFirsNeue-DemiBold'),
+        url('..//fonts/TTFirsNeue-DemiBold.ttf') format('embedded-opentype');
+    font-weight: 550;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Bold.ttf');
+    src: local('TT Firs Neue Bold'), local('TTFirsNeue-Bold'),
+        url('..//fonts/TTFirsNeue-Bold.ttf') format('embedded-opentype');
+    font-weight: 600;
+    font-style: normal;
+}
