@@ -30,4 +30,20 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
+
+  .header-hero {
+    flex-direction: column;
+  }
+  .header-hero-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  .header-title {
+    padding-top: 0px;
+  }
+.header-hero-right {
+  justify-content: center;
+}
 }

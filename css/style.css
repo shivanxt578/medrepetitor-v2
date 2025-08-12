@@ -1,5 +1,6 @@
 :root {
-  --main-color: #1EAAD2;
+  --main-color: rgb(32, 170, 210);
+  --acent-color: #f75b00;
   --dark: #3a3a3a;
 }
 
@@ -62,4 +63,39 @@
 .telephone:hover {
     text-decoration: underline;
     color: var(--main-color);
+}
+
+.header-hero {
+    display: flex;
+}
+
+.header-hero-left {
+    width: 40%;
+}
+
+.header-title {
+    color: var(--main-color);
+    font-size: 50px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+
+.header-descr {
+     font-size:  25px;
+     margin-bottom: 40px;
+}
+
+.header-btn {
+     background-color: var(--main-color);
+     color: rgb(255, 255, 255);
+     width: 320px;
+     height: 80px;
+     font-size: 20px;
+     border-radius: 20px;
+     transition: background-color 0.25s ease-in;
+}
+
+.header-btn:hover {
+    background-color: var(--acent-color);
 }
