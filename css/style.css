@@ -53,20 +53,26 @@
     color: var(--main-color);
 }
 
+
 .header-hero {
     display: flex;
+    overflow: hidden;
+    height: 560px;
+    gap: 50px;
 }
 
 .header-hero-left {
     width: 40%;
+    text-wrap: wrap;
 }
 
 .header-title {
     color: var(--main-color);
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 550;
     margin-bottom: 10px;
     padding-top: 80px;
+    font-weight: 600;
 }
 
 .header-descr {
@@ -86,4 +92,26 @@
 
 .header-btn:hover {
     background-color: var(--acent-color);
+}
+
+.header-hero-right {
+    position: relative;
+    display: flex;
+    width: 60%;
+}
+
+.hero-round {
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 700px;
+    top: 50px;
+}
+
+.hero {
+    position: absolute;
+    z-index: 2;
+    width: 470px;
+    height: 700px;
+    left: 50px;
 }
