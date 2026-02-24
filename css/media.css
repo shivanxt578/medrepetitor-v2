@@ -32,6 +32,8 @@
 
   .header-hero {
     flex-direction: column;
+    height: 480px;
+    row-gap: 0;
   }
 
   .header-hero-left {
