@@ -100,10 +100,10 @@
     width: 60%;
 }
 
-.hero-round {
+.header-hero-round {
     position: absolute;
     z-index: 1;
-    width: 800px;
+    width: 600px;
     height: 700px;
     top: 50px;
 }
