@@ -11,12 +11,6 @@
     }
 }
 
-@media (max-width: 721px) {
-    .teachers {
-        display: none;
-    }
-}
-
 @media (max-width: 500px) {
   .header-nav {
     margin-bottom: -10px;
@@ -37,6 +31,8 @@
 
   .header-hero {
     flex-direction: column;
+    height: 480px;
+    row-gap: 0;
   }
 
   .header-hero-left {
@@ -53,5 +49,25 @@
   .header-descr {
     font-size: 15px;
     margin-bottom: 20px;
+  }
+
+  .header-hero-right {
+    width: 450px;
+    height: 250px;;
+  }
+
+  .hero-round {
+    width: 250px;
+    height: 250px;
+     left: 50px;
+
+
+  }
+
+  .hero {
+ width: 200px;
+ height: 290px;
+ top: 0px;
+ left: 70px;
   }
 }
