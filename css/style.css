@@ -15,6 +15,10 @@
     margin: 0 auto;
 }
 
+
+.header {
+    margin-bottom: 50px;
+}
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -117,4 +121,24 @@
     width: 470px;
     height: 700px;
     left: 50px;
+}
+
+.hello-text {
+    text-align: center;
+}
+
+
+.korobov-name {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.repetitor{
+    font-size: 1.5rem;
+}
+
+.spec{
+    font-size: 1.2rem;
+    font-weight: 200;
 }
