@@ -1,3 +1,30 @@
+@media (max-width: 1195px) {
+  .header-title {
+  font-size: 3rem;
+}
+
+.header-descr {
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+}
+  
+}
+
+@media (max-width: 1033px) {
+.header-title {
+  font-size: 2.5rem;
+}
+.header-descr {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.header-btn {
+  width: 300px;
+}
+}
+
+
 @media (max-width: 950px) {
     .header-nav {
         display: flex;
@@ -9,10 +36,24 @@
         margin-bottom: 30px;
         width: 200px;
     }
+
+    .header-hero-left {
+    width: 45%;
+    text-wrap: wrap;
 }
 
+}
 
-@media (max-width: 500px) {
+@media (max-width: 830px) {
+.header-hero {
+    display: flex;
+    overflow: hidden;
+    height: 560px;
+    gap: 10px;
+}
+}
+
+@media (max-width: 600px) {
   html {
  font-size: 14px;
 }
