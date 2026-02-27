@@ -94,6 +94,10 @@
     background-color: var(--acent-color);
 }
 
+.hero-min {
+    display: none;
+}
+
 .header-hero-right {
     position: relative;
     width: 60%;
