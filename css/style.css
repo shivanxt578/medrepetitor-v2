@@ -47,7 +47,7 @@ html {
 }
 
 .social-list-item:not(:last-child) {
- margin-right: 15px; 
+    margin-right: 15px; 
 }
 
 .telephone {
@@ -61,6 +61,9 @@ html {
     color: var(--main-color);
 }
 
+.tel {
+    text-decoration: underline;
+}
 
 .header-hero {
     display: flex;
@@ -70,32 +73,32 @@ html {
 }
 
 .header-hero-left {
-    width: 40%;
+    width: 52%;
     text-wrap: wrap;
 }
 
 .header-title {
     color: var(--main-color);
     font-size: 3.5rem;
-    font-weight: 550;
-    margin-bottom: 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
     padding-top: 80px;
     font-weight: 600;
 }
 
 .header-descr {
-     font-size:  25px;
-     margin-bottom: 40px;
+    font-size:  30px;
+    margin-bottom: 40px;
 }
 
 .header-btn {
-     background-color: var(--main-color);
-     color: rgb(255, 255, 255);
-     width: 320px;
-     height: 80px;
-     font-size: 20px;
-     border-radius: 20px;
-     transition: background-color 0.25s ease-in;
+    background-color: var(--main-color);
+    color: rgb(255, 255, 255);
+    width: 320px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: background-color 0.25s ease-in;
 }
 
 .header-btn:hover {
@@ -127,8 +130,16 @@ html {
     left: 50px;
 }
 
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .hello-text {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 
@@ -145,4 +156,33 @@ html {
 .spec{
     font-size: 1.2rem;
     font-weight: 200;
+}
+
+.hello-regaly-box {
+    display: flex;
+    position: relative;
+    width: 85vw;
+    max-width: 900px;
+    height: 460px;
+    background-color: rgb(32, 170, 210);
+    border-radius: 30px;
+}
+
+.regaly-photo {
+    position: absolute;
+    width: 290px;
+    height: 480px;
+    bottom: 0px;
+    left: 9%;
+}
+
+.regaly-text {
+    position: absolute;
+    color: aliceblue;
+    width: 45%;
+    font-size: 1.2rem;
+    line-height: 30px;
+    right: 8%;
+    top: 10%;
+
 }
