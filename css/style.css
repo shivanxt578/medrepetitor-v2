@@ -4,6 +4,10 @@
   --dark: #3a3a3a;
 }
 
+html {
+ font-size: 16px;
+}
+
 *{
     box-sizing: border-box;
     font-family: 'TT Firs Neue', sans-serif;
