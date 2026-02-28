@@ -158,13 +158,20 @@
 }
 
 @media (min-width: 410px) and (max-width: 600px){
-.header-hero {
-height: 1000px;
-margin-bottom: 50px;
+.header {
+height: 1100px;
 }
+
+.hello {
+  padding-top: 0px;
+}
+
 }
 
 @media (max-width: 415px) {
+  .hello {
+  padding-top: 0px;
+} 
   .regaly-text {
     position: absolute;
     color: aliceblue;
