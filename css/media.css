@@ -55,7 +55,7 @@
 
 @media (max-width: 600px) {
   html {
- font-size: 14px;
+    font-size: 14px;
 }
   .header {
     height: 1000px;
@@ -131,7 +131,7 @@
 }
 
 .regaly-photo-min {
-    display: block;
+   display: block;
    max-width: 300px;
    padding-left: 15%;
 }
@@ -140,6 +140,48 @@
   display: none;
 }
 
-
+.hello-regaly-box {
+  min-height: 500px;
 }
 
+.regaly-text {
+    position: absolute;
+    color: aliceblue;
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+}
+
+@media (min-width: 410px) and (max-width: 600px){
+.header-hero {
+height: 1000px;
+margin-bottom: 50px;
+}
+}
+
+@media (max-width: 415px) {
+  .regaly-text {
+    position: absolute;
+    color: aliceblue;
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 27px;
+
+}
+}
+
+@media (max-width: 373px) {
+  .regaly-text {
+    position: absolute;
+    color: aliceblue;
+    width: 80%;
+    font-size: 1.2rem;
+    line-height: 23px;
+
+}
+}
