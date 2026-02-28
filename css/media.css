@@ -58,6 +58,7 @@
  font-size: 14px;
 }
   .header {
+    height: 1000px;
     margin-bottom: -20px;
   }
 
@@ -109,6 +110,7 @@
     display: none;
 }
 
+
   .hello-text {
     margin-bottom: 50px;
   }
@@ -127,4 +129,17 @@
     font-size: 1.3rem;
     font-weight: 200;
 }
+
+.regaly-photo-min {
+    display: block;
+   max-width: 300px;
+   padding-left: 15%;
 }
+
+.regaly-photo {
+  display: none;
+}
+
+
+}
+

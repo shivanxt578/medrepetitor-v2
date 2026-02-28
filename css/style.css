@@ -174,10 +174,12 @@ body {
 
 .regaly-photo {
     position: absolute;
+    display: block;
     width: 290px;
     height: 480px;
     bottom: 0px;
     left: 9%;
+
 }
 
 .regaly-text {
@@ -189,4 +191,8 @@ body {
     right: 8%;
     top: 10%;
 
+}
+
+.regaly-photo-min {
+    display: none;
 }
