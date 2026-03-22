@@ -159,7 +159,7 @@
 
 @media (min-width: 410px) and (max-width: 600px){
 .header {
-height: 1100px;
+min-height: 1100px;
 margin-bottom: 80px;
 }
 .hello {
