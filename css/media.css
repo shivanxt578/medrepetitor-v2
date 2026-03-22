@@ -159,14 +159,14 @@
 
 @media (min-width: 410px) and (max-width: 600px){
 .header {
-min-height: 1100px;
-margin-bottom: 80px;
+    min-height: 1100px;
+    margin-bottom: 80px;
 }
 .hello {
-  padding-top: 0px;
+    padding-top: 0px;
 }
 .header-hero {
-  overflow: visible;
+    overflow: visible;
 }
  .regaly-text {
     position: absolute;
@@ -176,7 +176,6 @@ margin-bottom: 80px;
     line-height: 35px;
 
 }
-
 }
 
 @media (max-width: 415px) {
