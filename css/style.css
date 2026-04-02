@@ -162,6 +162,10 @@ body {
     font-weight: 200;
 }
 
+.hello {
+    margin-bottom: 30px;
+}
+
 .hello-regaly-box {
     display: flex;
     position: relative;
@@ -196,3 +200,30 @@ body {
 .regaly-photo-min {
     display: none;
 }
+
+.cards-grid {
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 280px); /* 3 колонки по 280px */
+  justify-content: center; /* Центр */
+  gap: 30px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card__image {
+    margin-bottom: 10px;
+}
+
+.card__title {
+font-weight: 550;
+margin-bottom: 10px;
+}
+
+.card__description {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
