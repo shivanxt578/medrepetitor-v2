@@ -206,12 +206,13 @@ body {
 
 .achiv-block{
 display: flex;
+justify-content: center;
 
 }
 
 .card {
     text-align: center;
-    width: calc(100% / 3);
+    width: calc(85% / 3);
 }
 
 .card__image {
