@@ -204,6 +204,11 @@ body {
     display: none;
 }
 
+.achiv-block{
+display: flex;
+
+}
+
 .card {
     text-align: center;
     width: calc(100% / 3);
